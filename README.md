@@ -9,7 +9,7 @@ yandex-probki-indicator
 ======
 
 ```bash
-# если еще не уставнолен
+# если еще не установлен
 ➥ sudo apt-get install python-appindicator
 
 # запуск индикатора
