@@ -8,7 +8,11 @@ yandex-probki-indicator
 Запуск
 ======
 
-```
+```bash
+# если еще не уставнолен
+➥ sudo apt-get install python-appindicator
+
+# запуск индикатора
 ➥ ./yandex-probki-indicator.py 
 15/01 11:32:32: Updating jams ...
 ```
