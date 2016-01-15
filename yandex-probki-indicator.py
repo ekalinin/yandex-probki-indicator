@@ -48,7 +48,7 @@ class YaJamsIndicator:
         return os.path.abspath(os.path.join('icons', icon_filename))
 
     def update_jams(self):
-        print ("{}: Updating jams ...".format(time.strftime("%m/%Y %H:%M:%S")))
+        print ("{}: Updating jams ...".format(time.strftime("%d/%m %H:%M:%S")))
         lvl, lvl_txt = self.get_jam_velel()
         self.ind.set_label(lvl_txt)
         if lvl > 0 and lvl <= 3:
